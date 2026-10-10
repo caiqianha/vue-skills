@@ -1,0 +1,13 @@
+{
+  "name": "vue-skills",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Opinionated Agent Skills for Vue 3, Element Plus admin apps, WeChat Mini Programs and uni-app.",
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/validate.mjs",
+    "list": "node scripts/validate.mjs --list"
+  },
+  "license": "MIT",
+  "repository": "github:caiqianha/vue-skills"
+}

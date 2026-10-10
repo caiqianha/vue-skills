@@ -1,0 +1,10 @@
+{
+  "name": "vue-skills",
+  "version": "0.1.0",
+  "description": "Opinionated skills for Vue 3, Element Plus admin apps, WeChat Mini Programs and uni-app: conventions, pitfalls and review checklists, not API docs.",
+  "author": { "name": "caiqianha", "url": "https://github.com/caiqianha" },
+  "homepage": "https://github.com/caiqianha/vue-skills",
+  "repository": "https://github.com/caiqianha/vue-skills",
+  "license": "MIT",
+  "keywords": ["vue", "vue3", "element-plus", "pinia", "wechat-miniprogram", "uni-app", "skills", "claude-code"]
+}
