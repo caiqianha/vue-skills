@@ -1,0 +1,31 @@
+name: Propose a new skill
+description: A topic that deserves its own SKILL.md
+labels: [new-skill]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Proposed folder name (kebab-case)
+      placeholder: "vue-i18n-setup"
+    validations:
+      required: true
+  - type: textarea
+    id: trigger
+    attributes:
+      label: When should an agent load it? (this becomes the "Use when ..." description)
+    validations:
+      required: true
+  - type: textarea
+    id: rules
+    attributes:
+      label: Three to five non-negotiable rules you would put in it
+      description: Judgment and pitfalls, not API documentation. See STYLE.md.
+    validations:
+      required: true
+  - type: checkboxes
+    id: license
+    attributes:
+      label: Licensing
+      options:
+        - label: The content will be my own writing, licensed MIT, not copied from official docs or other repos
+          required: true

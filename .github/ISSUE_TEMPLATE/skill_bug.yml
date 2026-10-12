@@ -1,0 +1,40 @@
+name: Wrong or outdated rule in a skill
+description: A rule in a SKILL.md is incorrect, outdated or made the agent produce bad code
+labels: [skill-bug]
+body:
+  - type: dropdown
+    id: skill
+    attributes:
+      label: Skill
+      options:
+        - vue3-composition
+        - element-plus-admin
+        - api-layer-axios
+        - pinia-state
+        - vue-router-auth
+        - vue-performance
+        - vue-testing-vitest
+        - wechat-miniprogram
+        - uni-app-cross-platform
+        - vue2-to-vue3-migration
+        - vue-code-review
+    validations:
+      required: true
+  - type: textarea
+    id: rule
+    attributes:
+      label: The rule (quote the line from SKILL.md)
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it is wrong, and what the agent did because of it
+      description: A short snippet of the generated code is enough. Please do not paste private project code.
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Library versions involved
+      placeholder: "vue 3.5.x, element-plus 2.8.x, agent: Claude Code / Cursor / Codex"
