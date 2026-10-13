@@ -7,3 +7,5 @@
    shorter and still correct is a good PR.
 5. Everything you submit must be your own writing, licensed MIT. Do not paste
    official documentation, blog posts or code from other licenses.
+
+By participating you agree to follow the [Code of Conduct](CODE_OF_CONDUCT.md).
