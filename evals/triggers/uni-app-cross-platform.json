@@ -1,0 +1,14 @@
+{
+  "skill": "uni-app-cross-platform",
+  "triggers": [
+    "Set up a uni-app project with Vue 3 that targets H5 and 微信小程序 with one request wrapper",
+    "Where should 条件编译 (#ifdef) live in a uni-app codebase so it does not spread everywhere?",
+    "Configure pages.json subpackages (分包) for our uni-app",
+    "A CSS style works on H5 but breaks in the mini program build of my uni-app"
+  ],
+  "negatives": [
+    "Configure React Navigation for a React Native app",
+    "Write a Capacitor plugin for iOS haptics",
+    "Center text inside a LaTeX table cell"
+  ]
+}

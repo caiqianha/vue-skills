@@ -1,0 +1,14 @@
+{
+  "skill": "vue-code-review",
+  "triggers": [
+    "Review this Vue PR diff for correctness, security and performance issues",
+    "Give me a code review of this Element Plus page with severity labels",
+    "Check this Pinia store change before I merge it",
+    "Review pull request #42 in our Vue 2 project and list blockers"
+  ],
+  "negatives": [
+    "Review my resume for a product manager role",
+    "Write a review of the latest smartphone camera",
+    "Create a pull request template for a Go repository"
+  ]
+}

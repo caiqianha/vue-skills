@@ -1,0 +1,14 @@
+{
+  "skill": "element-plus-admin",
+  "triggers": [
+    "Build a user management list page with Element Plus: search form, el-table, pagination and a create/edit dialog",
+    "The edit dialog reset button restores the edited values instead of blanks in my el-form",
+    "Add an export button to this Element Plus admin table that reuses the current search filters",
+    "Row selection is lost after I reload the rows in el-table"
+  ],
+  "negatives": [
+    "Design a landing page hero section with Tailwind for a marketing site",
+    "Write a bash script to rotate nginx logs weekly",
+    "Explain the difference between TCP and UDP"
+  ]
+}

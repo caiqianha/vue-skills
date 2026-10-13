@@ -1,0 +1,14 @@
+{
+  "skill": "vue-router-auth",
+  "triggers": [
+    "Add permission-driven dynamic routes after login with Vue Router 4 without redirect loops",
+    "Implement a navigation guard that redirects to login and then back to the deep link",
+    "keep-alive tabs are not caching my pages; the component remounts on every visit",
+    "Add button-level permissions with a v-permission directive that reads from the store"
+  ],
+  "negatives": [
+    "Write a Rust function that performs binary search over a sorted slice",
+    "Pretty-print this JSON file with jq",
+    "Explain how DNS resolution works"
+  ]
+}

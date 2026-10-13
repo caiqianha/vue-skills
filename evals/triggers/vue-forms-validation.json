@@ -1,0 +1,25 @@
+{
+  "skill": "vue-forms-validation",
+  "triggers": [
+    "Build a registration form with vee-validate and zod including confirm password and an async username check",
+    "Element Plus el-form rules: validation passes even though a required field is empty",
+    "Add a dynamic list of contacts to this form with per-row validation",
+    "Translate the validation error messages when the user switches locale",
+    "The submit button fires twice on a fast double click in my form"
+  ],
+  "negatives": [
+    "Validate a JSON schema in a Node API with ajv",
+    "Build a Google Form for an event sign-up",
+    "Write SQL constraints for a users table"
+  ],
+  "rubric": [
+    "Defines the rules in a single schema (zod or valibot) passed through toTypedSchema; no duplicated el-form rules",
+    "Validates on blur and submit, not on every keystroke (validateOnModelUpdate: false or equivalent)",
+    "Implements the username check as a debounced async rule that runs only after sync rules pass and ignores stale results",
+    "Cross-field confirm-password rule uses refine with path ['confirm'] (or equivalent) and re-validates when password changes",
+    "Dynamic contacts use useFieldArray with the row key, not the index",
+    "Submit is single-flight via isSubmitting (or a flag inside the handler); the button is disabled only while submitting",
+    "Maps server field errors with setErrors and resets the form to the saved values after success",
+    "Mentions checking the adapter's peerDependencies before choosing the zod major version"
+  ]
+}

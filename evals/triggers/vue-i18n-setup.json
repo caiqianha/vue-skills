@@ -1,0 +1,15 @@
+{
+  "skill": "vue-i18n-setup",
+  "triggers": [
+    "Add vue-i18n to our Vue 3 + Element Plus admin with lazy loaded locales",
+    "Switching language does not update the Element Plus pagination text or the dates",
+    "How should I organise locale message files by feature and check for missing keys in CI?",
+    "Review this PR for hardcoded Chinese strings in an i18n project",
+    "Pluralisation and RTL support with vue-i18n for Arabic"
+  ],
+  "negatives": [
+    "Translate this paragraph into French",
+    "Set up react-intl in a Next.js app",
+    "Write a regex that matches Unicode emoji"
+  ]
+}

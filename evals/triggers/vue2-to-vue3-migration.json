@@ -1,0 +1,14 @@
+{
+  "skill": "vue2-to-vue3-migration",
+  "triggers": [
+    "Plan the migration of our Vue 2 + Element UI app to Vue 3 and Element Plus",
+    "How do I use @vue/compat to migrate the app incrementally?",
+    "Move from Vuex to Pinia as part of our Vue 3 upgrade",
+    "Audit this Vue 2 codebase for migration blockers like filters, the event bus and mixins"
+  ],
+  "negatives": [
+    "Migrate a database from MySQL to PostgreSQL with minimal downtime",
+    "Upgrade an Angular 12 project to Angular 17",
+    "Convert this Python 2 script to Python 3"
+  ]
+}

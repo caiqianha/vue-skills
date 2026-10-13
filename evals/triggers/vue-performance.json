@@ -1,0 +1,14 @@
+{
+  "skill": "vue-performance",
+  "triggers": [
+    "This Vue 3 page with a 10k row table lags when I type in the filter box",
+    "Our production bundle is 4 MB; how do I split it by route and component?",
+    "Memory keeps growing when switching between keep-alive tabs, help me find the leak",
+    "Make this dashboard that holds large data render faster without rewriting it"
+  ],
+  "negatives": [
+    "Optimise this PostgreSQL query with the right index",
+    "Compress and resize images for a static photo blog",
+    "Write a Dockerfile for a Go service"
+  ]
+}

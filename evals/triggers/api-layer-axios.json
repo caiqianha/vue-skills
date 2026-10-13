@@ -1,0 +1,14 @@
+{
+  "skill": "api-layer-axios",
+  "triggers": [
+    "Set up an axios instance with interceptors for our Vue 3 admin so business errors are shown in one place",
+    "Our API returns 401 when the token expires; implement a refresh queue so parallel requests retry once",
+    "How should I download an Excel file as a blob from the backend and keep the filename from Content-Disposition?",
+    "Refactor these fetch calls scattered across components into typed API modules with cancellation"
+  ],
+  "negatives": [
+    "Write a GitHub Actions workflow that runs the test suite on pull requests",
+    "Center a div vertically with CSS grid",
+    "Explain how the Python asyncio event loop schedules coroutines"
+  ]
+}

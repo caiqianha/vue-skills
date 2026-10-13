@@ -1,11 +1,14 @@
 {
   "name": "vue-skills",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
-  "description": "Opinionated Agent Skills for Vue 3, Element Plus admin apps, WeChat Mini Programs and uni-app.",
+  "description": "Opinionated Agent Skills for Vue 3, Nuxt, Element Plus admin apps, WeChat Mini Programs and uni-app.",
   "type": "module",
   "scripts": {
-    "test": "node scripts/validate.mjs",
+    "test": "npm run validate && npm run eval:triggers",
+    "validate": "node scripts/validate.mjs",
+    "eval:triggers": "node scripts/eval-triggers.mjs",
+    "eval:model": "claude plugin eval . --runs 1 --ablation none",
     "list": "node scripts/validate.mjs --list"
   },
   "license": "MIT",

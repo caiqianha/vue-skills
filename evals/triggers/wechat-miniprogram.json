@@ -1,0 +1,14 @@
+{
+  "skill": "wechat-miniprogram",
+  "triggers": [
+    "Build a product list page in a native 微信小程序 with pull-to-refresh and pagination",
+    "In the wx.login flow, where does code2session run and how do I avoid shipping the AppSecret?",
+    "My mini program was rejected in 审核 for forcing login on launch; what should change?",
+    "setData is slow when I update one item of a long list rendered with wx:for"
+  ],
+  "negatives": [
+    "Build a Flutter app with a bottom navigation bar",
+    "How do I publish a package to npm with provenance?",
+    "Write a cron expression that runs every weekday at 9am"
+  ]
+}

@@ -1,18 +1,19 @@
 {
   "name": "vue-skills",
+  "description": "Opinionated Agent Skills for the Vue ecosystem and Chinese mini-program platforms.",
   "owner": { "name": "caiqianha", "url": "https://github.com/caiqianha" },
   "metadata": {
     "description": "Opinionated Agent Skills for the Vue ecosystem and Chinese mini-program platforms.",
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "plugins": [
     {
       "name": "vue-skills",
-      "source": "./",
-      "description": "Vue 3, Element Plus admin, Pinia, router/auth, axios layer, WeChat Mini Program, uni-app, Vue 2 → 3 migration, testing, performance and review skills.",
-      "version": "0.1.0",
+      "source": ".",
+      "description": "Vue 3, Nuxt 3/4, Element Plus admin, forms and validation, vue-i18n, Pinia, router/auth, axios layer, WeChat Mini Program, uni-app, Vue 2 to 3 migration, testing, performance and review skills.",
+      "version": "0.2.0",
       "category": "development",
-      "keywords": ["vue", "element-plus", "miniprogram", "uni-app"]
+      "keywords": ["vue", "nuxt", "element-plus", "miniprogram", "uni-app"]
     }
   ]
 }

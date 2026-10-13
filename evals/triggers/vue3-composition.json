@@ -1,0 +1,14 @@
+{
+  "skill": "vue3-composition",
+  "triggers": [
+    "Refactor this component to <script setup> with typed props and emits",
+    "Should I use ref, reactive or shallowRef for this list of 5k items?",
+    "This watch fires too often and leaks a timer; fix the watcher",
+    "Extract this logic into a composable with proper cleanup on unmount"
+  ],
+  "negatives": [
+    "Explain the rules of React hooks",
+    "Write a Svelte store for a counter",
+    "Add a Webpack loader for SVG icons"
+  ]
+}

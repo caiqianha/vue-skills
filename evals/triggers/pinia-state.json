@@ -1,0 +1,14 @@
+{
+  "skill": "pinia-state",
+  "triggers": [
+    "Should the current user's profile live in a Pinia store or a composable?",
+    "Create a cart store with Pinia using the setup syntax and persist only the items",
+    "Refactor this one global store that holds everything into smaller domain stores",
+    "My Pinia action swallows errors; how should actions own async state and errors?"
+  ],
+  "negatives": [
+    "Add a CSS transition to a dropdown menu",
+    "Write a SQL query that finds duplicate emails in a users table",
+    "Set up ESLint flat config for a Node library"
+  ]
+}

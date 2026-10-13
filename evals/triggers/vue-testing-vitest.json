@@ -1,0 +1,14 @@
+{
+  "skill": "vue-testing-vitest",
+  "triggers": [
+    "Add Vitest tests for this composable and mock the API module",
+    "Write a component test with @vue/test-utils for the login form behaviour",
+    "Set up Pinia and the router in tests so state does not leak between cases",
+    "Which end-to-end flows should I cover with Playwright for our admin app?"
+  ],
+  "negatives": [
+    "Write pytest fixtures for a Django model",
+    "Configure Jest for a React Native project",
+    "Summarise the philosophy behind test-driven development"
+  ]
+}
